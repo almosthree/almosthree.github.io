@@ -13,8 +13,14 @@
     <div id="root"></div>
 
     <script type="text/babel">
-    // React code here
-    
+    class App extends React.Component {
+      render() {
+        return <h1>Welcome to the Firemans Annuity and Benefit Fund!</h1>
+      }
+    }
+
+    ReactDom.render(<App />, document.getElementById('root'))
     </script>
+
   </body>
 </html>
